@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class StudentMarks {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int marks = sc.nextInt();
+        if(marks>=90){
+            System.err.println("grade:A");
+        }
+        else if(marks >=80 && marks < 90){
+            System.out.println("grade:B");
+        }
+        else if(marks >= 70 && marks < 80){
+            System.out.println("grade:C");
+        }
+        else if(marks >= 60 && marks <70){
+            System.out.println("grade:D");
+        }
+        else{
+            System.out.println("Fail");
+        }
+    }
+    
+}
